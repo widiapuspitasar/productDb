@@ -8,12 +8,17 @@ const middlewares = jsonServer.defaults()
 server.use(middlewares)
 
 // Setup routes
-server.use('/api', router)
+server.use(
+    jsonServer.rewriter({
+        "/*": "/$1"
+    })
+);
+
+server.use(router);
 
 // Start server
-const port = process.env.PORT || 3000
-server.listen(port, () => {
-  console.log(`JSON Server running on port ${port}`)
+server.listen(3000, () => {
+  console.log(`JSON Server running on port`)
 })
 
 module.exports = server
