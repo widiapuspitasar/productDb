@@ -1,11 +1,12 @@
 {
     "targets":[
       {"id":1, "revenue":100000000, "repeatOrders":100, "transaction":400 },
-      {"id":2, "revenue":1000000, "repeatOrders":10, "transaction":50, "time":2020 },
-      {"id":3, "revenue":5000000, "repeatOrders":20, "transaction":70, "time":2021 },
-      {"id":4, "revenue":6000000, "repeatOrders":30, "transaction":80, "time":2022 },
-      {"id":5, "revenue":7000000, "repeatOrders":40, "transaction":90, "time":2023 },
-      {"id":6, "revenue":8000000, "repeatOrders":50, "transaction":110, "time":2024 }
+      {"id":2, "revenue":20000000, "repeatOrders":10, "transaction":50, "time":2020 },
+      {"id":3, "revenue":23000000, "repeatOrders":20, "transaction":70, "time":2021 },
+      {"id":4, "revenue":24000000, "repeatOrders":30, "transaction":80, "time":2022 },
+      {"id":5, "revenue":25000000, "repeatOrders":40, "transaction":90, "time":2023 },
+      {"id":6, "revenue":25000000, "repeatOrders":50, "transaction":110, "time":2024 },
+      {"id":7, "revenue":25000000, "repeatOrders":50, "transaction":110, "time":2025 }
     ],
     "categories": [
       { "id": 1, "name": "Electronics" },
@@ -276,7 +277,19 @@
       { "id": 197, "productId": 26, "count": 3, "customerId": 25, "time": "10/04/2022" },
       { "id": 198, "productId": 5, "count": 3, "customerId": 6, "time": "29/07/2020" },
       { "id": 199, "productId": 9, "count": 9, "customerId": 49, "time": "30/01/2022" },
-      { "id": 200, "productId": 7, "count": 3, "customerId": 48, "time": "11/11/2024" }
+      { "id": 200, "productId": 7, "count": 3, "customerId": 48, "time": "11/11/2024" },
+      { "id": 201, "productId": 11, "count": 4, "customerId": 50, "time": "30/01/2025" },
+      { "id": 202, "productId": 14, "count": 2, "customerId": 10, "time": "20/02/2025" },
+      { "id": 203, "productId": 6, "count": 2, "customerId": 22, "time": "19/01/2025" },
+      { "id": 204, "productId": 21, "count": 3, "customerId": 13, "time": "12/02/2025" },
+      { "id": 205, "productId": 17, "count": 2, "customerId": 35, "time": "03/01/2025" },
+      { "id": 206, "productId": 29, "count": 3, "customerId": 24, "time": "29/01/2025" },
+      { "id": 207, "productId": 22, "count": 4, "customerId": 16, "time": "11/02/2025" },
+      { "id": 208, "productId": 2, "count": 2, "customerId": 21, "time": "04/01/2025" },
+      { "id": 209, "productId": 26, "count": 3, "customerId": 25, "time": "10/01/2025" },
+      { "id": 210, "productId": 5, "count": 3, "customerId": 6, "time": "29/02/2025" },
+      { "id": 211, "productId": 9, "count": 9, "customerId": 49, "time": "30/01/2025" },
+      { "id": 212, "productId": 7, "count": 3, "customerId": 48, "time": "11/02/2025" }
     ],
     "products": [
       { "id": 1, "name": "Smartphone", "categoryId": 1, "colorId": 2, "price": 120000, "stock": 123 },
