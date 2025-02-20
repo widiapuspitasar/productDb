@@ -16,9 +16,11 @@ server.use(
 
 server.use(router);
 
-// Start server
-server.listen(3000, () => {
-  console.log(`JSON Server running on port`)
-})
+// Jika dijalankan secara lokal, jalankan server pada port 3000
+if (!process.env.VERCEL_ENV) {
+  server.listen(3000, () => {
+    console.log(`JSON Server running on port 3000`)
+  })
+}
 
 module.exports = server
